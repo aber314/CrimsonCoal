@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+
+    "ingredients": 
+    [
+        {
+            "item": "cm:crimson_coal"
+        },
+        {
+            "item": "cm:crimson_coal_block"
+        }
+    ],
+    "result":
+    {
+        "item": "cm:crimson_coal",
+        "count": 10
+    }
+}

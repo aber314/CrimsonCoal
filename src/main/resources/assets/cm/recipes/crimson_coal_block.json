@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+
+    "key":
+    {
+        "C":
+        {
+            "item": "cm:crimson_coal"
+        }
+    },
+
+    "result":
+    {
+        "item": "cm:crimson_coal_block",
+        "count": 1
+    }
+}
