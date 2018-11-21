@@ -4,7 +4,7 @@
     "ingredients": 
     [
         {
-            "item": "minecraft:coal",
+            "item": "minecraft:coal_block",
             "data": 0
         },
 
@@ -16,7 +16,7 @@
 
     "result":
     {
-        "item": "cm:crimson_coal",
+        "item": "cm:crimson_coal_block",
         "count": 1
     }
 }
