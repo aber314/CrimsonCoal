@@ -4,14 +4,26 @@
     "ingredients": 
     [
         {
+<<<<<<< HEAD
             "item": "minecraft:coal",
             "data": 0
-        },
-        {
+=======
             "item": "minecraft:dye",
             "data": 1
+>>>>>>> 0d6ecd3ec8474fe764a8e60513936281b6e7bd62
+        },
+
+        {
+<<<<<<< HEAD
+            "item": "minecraft:dye",
+            "data": 1
+=======
+            "item": "minecraft:coal",
+            "data": 0
+>>>>>>> 0d6ecd3ec8474fe764a8e60513936281b6e7bd62
         }
     ],
+
     "result":
     {
         "item": "cm:crimson_coal",
