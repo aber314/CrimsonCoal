@@ -4,6 +4,7 @@ import com.crimsoncoal.crimsoncoal.init.ModRecipes;
 import com.crimsoncoal.crimsoncoal.proxy.CommonProxy;
 import com.crimsoncoal.crimsoncoal.util.Reference;
 import com.crimsoncoal.crimsoncoal.util.handlers.FuelHandler;
+import com.crimsoncoal.crimsoncoal.world.ModWorldGen;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -27,7 +28,7 @@ public class Main
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
-
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 	}
 
 	@EventHandler
