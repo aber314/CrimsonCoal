@@ -19,6 +19,7 @@ public class CrimsonCoalOre extends BlockBase
 		setHardness(5.0F);
 		setResistance(15.0F);
 		setHarvestLevel("pickaxe", 0);
+
 	}
 
 	@Override
