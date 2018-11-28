@@ -16,7 +16,5 @@ public class CrimsonCoalBlock extends BlockBase
 		setLightLevel(0.0F);
 		// setLightOpacity(0);
 		// setBlockUnbreakable();
-
 	}
-
 }
