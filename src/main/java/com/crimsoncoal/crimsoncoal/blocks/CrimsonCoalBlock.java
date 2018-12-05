@@ -17,7 +17,7 @@ public class CrimsonCoalBlock extends BlockBase
 			@Override
 			public int getItemBurnTime(ItemStack itemStack)
 			{
-				return 24000; // same value as vanilla wood
+				return 24000;
 			}
 		};
 
