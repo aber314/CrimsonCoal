@@ -2,6 +2,7 @@ package com.crimsoncoal.entity.render;
 
 import com.crimsoncoal.crimsoncoal.util.Reference;
 import com.crimsoncoal.entity.EntityCentaur;
+import com.crimsoncoal.entity.model.ModelCentaur;
 
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
