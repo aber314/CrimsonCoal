@@ -10,4 +10,6 @@ public class Reference
 	public static final String CLIENT_PROXY_CLASS = "com.crimsoncoal.crimsoncoal.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "com.crimsoncoal.crimsoncoal.proxy.CommonProxy";
 
+	public static final int ENTITY_CENTAUR = 120;
+
 }

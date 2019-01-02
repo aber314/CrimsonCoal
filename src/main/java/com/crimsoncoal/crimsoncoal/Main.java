@@ -1,8 +1,10 @@
 package com.crimsoncoal.crimsoncoal;
 
+import com.crimsoncoal.crimsoncoal.init.EntityInit;
 import com.crimsoncoal.crimsoncoal.init.ModRecipes;
 import com.crimsoncoal.crimsoncoal.proxy.CommonProxy;
 import com.crimsoncoal.crimsoncoal.util.Reference;
+import com.crimsoncoal.crimsoncoal.util.handlers.RenderHandler;
 import com.crimsoncoal.crimsoncoal.world.ModWorldGen;
 
 import net.minecraftforge.fml.common.Mod;
@@ -28,6 +30,9 @@ public class Main
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+
+		EntityInit.reguisterEntities();
+		RenderHandler.registerEntityRenders();
 	}
 
 	@EventHandler
