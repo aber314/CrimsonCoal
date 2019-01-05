@@ -11,5 +11,6 @@ public class Reference
 	public static final String COMMON_PROXY_CLASS = "com.crimsoncoal.crimsoncoal.proxy.CommonProxy";
 
 	public static final int ENTITY_CENTAUR = 120;
+	public static final int ENTITY_CRIMSON_CRAWLER = 121;
 
 }

@@ -31,7 +31,7 @@ public class Main
 	{
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 
-		EntityInit.reguisterEntities();
+		EntityInit.registerEntities();
 		RenderHandler.registerEntityRenders();
 	}
 
