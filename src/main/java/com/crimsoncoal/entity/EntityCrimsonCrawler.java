@@ -21,6 +21,7 @@ public class EntityCrimsonCrawler extends EntitySpider
 		super.applyEntityAttributes();
 		getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(8.0D);
 		getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4D);
+		isImmuneToFire = true;
 	}
 
 	public EntitySpider createChild(EntityAgeable ageable)
