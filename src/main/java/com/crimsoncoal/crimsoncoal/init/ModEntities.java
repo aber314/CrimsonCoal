@@ -2,7 +2,6 @@ package com.crimsoncoal.crimsoncoal.init;
 
 import com.crimsoncoal.crimsoncoal.Main;
 import com.crimsoncoal.crimsoncoal.util.Reference;
-import com.crimsoncoal.entity.EntityCentaur;
 import com.crimsoncoal.entity.EntityCrimsonCrawler;
 
 import net.minecraft.entity.Entity;
@@ -11,11 +10,10 @@ import net.minecraft.init.Biomes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 
-public class EntityInit
+public class ModEntities
 {
 	public static void registerEntities()
 	{
-		registerEntity("Centaur", EntityCentaur.class, Reference.ENTITY_CENTAUR, 50, 11437146, 000000); // mathisful.com/hexideimal-decimal-colors.html
 		registerEntity("Crimson Crawler", EntityCrimsonCrawler.class, Reference.ENTITY_CRIMSON_CRAWLER, 50, 15022344, 2161518);
 	}
 

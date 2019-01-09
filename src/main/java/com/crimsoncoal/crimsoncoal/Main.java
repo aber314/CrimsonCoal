@@ -1,6 +1,6 @@
 package com.crimsoncoal.crimsoncoal;
 
-import com.crimsoncoal.crimsoncoal.init.EntityInit;
+import com.crimsoncoal.crimsoncoal.init.ModEntities;
 import com.crimsoncoal.crimsoncoal.init.ModRecipes;
 import com.crimsoncoal.crimsoncoal.proxy.CommonProxy;
 import com.crimsoncoal.crimsoncoal.util.Reference;
@@ -31,7 +31,7 @@ public class Main
 	{
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 
-		EntityInit.registerEntities();
+		ModEntities.registerEntities();
 		RenderHandler.registerEntityRenders();
 	}
 
